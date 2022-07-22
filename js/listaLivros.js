@@ -7,4 +7,4 @@ const infoLivros = [
 	{ nome: 'Python', valor: 20 },
 ];
 
-module.exports = infoLivros;
+module.exports = { infoLivros };

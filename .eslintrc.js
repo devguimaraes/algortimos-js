@@ -11,8 +11,6 @@ module.exports = {
 		sourceType: 'module',
 	},
 	rules: {
-		'prettier/prettier': 'error',
-
 		'import/prefer-default-export': 'off',
 		'react/state-in-constructor': 'off',
 		'react/static-property-placement': 'off',
