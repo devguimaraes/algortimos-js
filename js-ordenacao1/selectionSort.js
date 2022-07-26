@@ -9,4 +9,4 @@ const arrayMaisCaro = infoLivros.map(el => el).sort((a, b)=> b.valor - a.valor)
 // Ordenacao por ordem alfabetica dos titulo do livro
 const arrOrderAlfabetic = infoLivros.map(el => el).sort((a, b)=> a.nome > b.nome ? 1 : -1)
 
-console.log(arrOrderAlfabetic)
+

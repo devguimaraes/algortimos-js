@@ -22,11 +22,12 @@ const maisCaros = infoLivros.map(el => el)
 maisCaros.sort((a, b) => b.valor - a.valor  )
 
 // Array com livros com valor ate 40 dinheiros
-const livrosAte40 = infoLivros.filter(el => el.valor < 45 ? el : "")
+const livrosAte40 = infoLivros.filter(el => el.valor <= 40 ? el : "");
 
-// Array com livros de até 40 dinheiro ordenado em forma crescente
+// Array com livros de até 40 dinheiros ordenado em forma crescente
 const menorValorAte40 = livrosAte40.map(el => el)
 menorValorAte40.sort((a, b)=> a.valor - b.valor)
+
 
 
 
